@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.calculator{
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 90px;
+    cursor: move;
+    border: 0.1px solid black;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
