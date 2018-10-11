@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-hel��
-
-sds
-=======
-hello
->>>>>>> parent of 5d19628... Update 新建文本文档.txt
