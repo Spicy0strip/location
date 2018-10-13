@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: rgb(232, 210, 177);
+}
+
+#Big{
+    width: 505px;
+    height: 505px;
+    border: 0.1px solid black;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    border-radius: 50%;
+    background: rgb(51, 51, 51);
+}
+
+.ra{
+    width: 210px;
+    height: 210px;
+    border: 0.1px solid rgb(51, 51, 51);
+    display: inline-block;
+    position: relative;
+    top: 33px;
+    z-index: 2;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+
+#green{
+    border-radius:100% 0 0 0;
+    background: rgb(0, 167, 74);
+}
+
+#red{
+    border-radius: 0 100% 0 0;
+    background: rgb(159, 15, 23);
+}
+
+#yellow{
+    border-radius: 0 0 0 100%;
+    background: rgb(204, 167, 7);
+}
+
+#blue{
+    border-radius: 0 0 100% 0;
+    background: rgb(9, 74, 143);
+}
+
+#Small{
+    width: 240px;
+    height: 240px;
+    border: 12px solid rgb(51, 51, 51);
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    left: 120px;
+    top: 120px;
+    background: rgb(236, 231, 238);
+}
+
+h1 span{
+    font-size: 30%;
+    position: relative;
+    top: -15px;
+    left: -5px;
+}
+
+#Mi{
+    width: 100%;
+    height: 70px;
+    position: relative;
+
+}
+#Small div{
+    display: inline-block;
+}
+
+#cour{
+    width: 50px;
+    height: 30px;
+    border: 3px solid brown;
+    border-radius: 50px;
+    background: rgb(50, 5, 12);
+    color: black;
+    text-align: center;
+    line-height: 30px;
+
+
+}
+#Mi div p{
+    font-size: 60%;
+    color: black;
+    font-weight: initial;
+    position: relative;
+    top: -5px;
+}
+
+#start div,
+#buuu{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+#start div{
+    border: 3px solid rgb(68, 68, 68);
+    background: rgb(252, 1, 2);
+}
+#di{
+    width: 10px;
+    height: 10px;
+    background: rgb(51, 51, 51);
+}
+#strict #di{
+    display: block;
+    position: relative;
+    left: 15px;
+    top: -5px;
+    border-radius: 50%;
+}
+
+#buuu{
+    border: 3px solid rgb(68, 68, 68);
+    background: yellow;
+
+}
+#bo p,
+#bo div{
+    display: inline-block;
+}
+
+#bu{
+    width: 50px;
+    height: 20px;
+    border: 1px solid rgb(34, 34, 34);
+    text-align: left;
+}
+#buu{
+    width: 25px;
+    height: 20px;
+    position: relative;
+    /*left: 25px;*/
+    background: rgb(34, 34, 34);
+    /*background: red;*/
+
+}
+#bo{
+    position: relative;
+    top: 20px;
+}
+#bo p{
+    font-size: 60%;
+}
+#bo,
+#st,
+#buuu{
+    cursor: pointer;
+}
+
+#red:hover,
+#Big .red-show {
+    background-color: rgb(255, 76, 76);
+}
+
+#blue:hover,
+#Big .blue-show {
+    background-color: rgb(28, 140, 255);
+}
+
+#yellow:hover,
+#Big .yellow-show {
+    background-color: rgb(254, 217, 63);
+}
+
+#green:hover,
+#Big .green-show {
+    background-color: rgb(19, 255, 124);
+}
+
+@-webkit-keyframes  myself1 {
+    0% {
+        color: rgb(50, 5, 12);
+    }
+    10%{
+        color: rgb(50, 5, 12);
+    }
+
+    20% {
+        color: rgb(50, 5, 12);
+    }
+    30%{
+        color: rgb(50, 5, 12);
+    }
+    33% {
+        color: red;
+    }
+
+    40%{
+        color: red;
+    }
+
+    50%{
+        color: red;
+    }
+    60% {
+        color: red;
+    }
+    65% {
+        color: red;
+    }
+    66% {
+        color: rgb(50, 5, 12);
+    }
+
+    70% {
+        color: rgb(50, 5, 12);
+    }
+
+    80% {
+        color: rgb(50, 5, 12);
+    }
+    90% {
+        color: rgb(50, 5, 12);
+    }
+    95% {
+        color: rgb(50, 5, 12);
+    }
+    98% {
+        color: red;
+    }
+    100% {
+        color: red;
+    }
+
+}
+
+/*@keyframes myselfGreen {*/
+    /*0% {*/
+        /*background-color: rgb(0, 167, 74);*/
+    /*}*/
+    /*10% {*/
+        /*background-color: rgb(19, 255, 124);*/
+    /*}*/
+    /*20% {*/
+        /*background-color: rgb(19, 255, 124);*/
+    /*}*/
+    /*30% {*/
+        /*background-color: rgb(19, 255, 124);*/
+    /*}*/
+    /*50% {*/
+        /*background-color: rgb(19, 255, 124);*/
+    /*}*/
+    /*60%{*/
+        /*background-color: rgb(19, 255, 124);*/
+    /*}*/
+    /*70%{*/
+        /*background-color: rgb(0, 167, 74);*/
+    /*}*/
+    /*100% {*/
+        /*background-color: rgb(0, 167, 74);*/
+    /*}*/
+
+/*}*/
+
+/*@keyframes myselfRed {*/
+    /*0% {*/
+        /*background-color: rgb(159, 15, 23);*/
+    /*}*/
+    /*10% {*/
+        /*background-color: rgb(255, 76, 76);*/
+    /*}*/
+    /*20% {*/
+        /*background-color: rgb(255, 76, 76);*/
+    /*}*/
+    /*30% {*/
+        /*background-color: rgb(255, 76, 76);*/
+    /*}*/
+    /*40% {*/
+        /*background-color: rgb(255, 76, 76);*/
+    /*}*/
+    /*50% {*/
+        /*background-color: rgb(255, 76, 76);*/
+    /*}*/
+    /*70%{*/
+        /*background-color: rgb(159, 15, 23);*/
+    /*}*/
+    /*100% {*/
+        /*background-color: rgb(159, 15, 23);*/
+    /*}*/
+
+/*}*/
+
+/*@keyframes myselfBlue {*/
+    /*0% {*/
+        /*background-color: rgb(9, 74, 143);*/
+    /*}*/
+    /*10% {*/
+        /*background-color: rgb(28, 140, 255);*/
+    /*}*/
+    /*20% {*/
+        /*background-color: rgb(28, 140, 255);*/
+    /*}*/
+    /*30% {*/
+        /*background-color: rgb(28, 140, 255);*/
+    /*}*/
+    /*40% {*/
+        /*background-color: rgb(28, 140, 255);*/
+    /*}*/
+    /*50% {*/
+        /*background-color: rgb(28, 140, 255);*/
+    /*}*/
+    /*70% {*/
+        /*background-color: rgb(9, 74, 143);*/
+    /*}*/
+    /*100% {*/
+        /*background-color: rgb(9, 74, 143);*/
+    /*}*/
+/*}*/
+
+/*@keyframes myselfYellow {*/
+    /*0% {*/
+        /*background-color: rgb(204, 167, 7);*/
+    /*}*/
+    /*10% {*/
+        /*background-color: rgb(254, 217, 63);*/
+    /*}*/
+    /*20% {*/
+        /*background-color: rgb(254, 217, 63);*/
+    /*}*/
+    /*30% {*/
+        /*background-color: rgb(254, 217, 63);*/
+    /*}*/
+    /*40% {*/
+        /*background-color: rgb(254, 217, 63);*/
+    /*}*/
+    /*50% {*/
+        /*background-color: rgb(254, 217, 63);*/
+    /*}*/
+    /*60% {*/
+        /*background-color: rgb(204, 167, 7);*/
+    /*}*/
+    /*100% {*/
+        /*background-color: rgb(204, 167, 7);*/
+    /*}*/
+/*}*/
